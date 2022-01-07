@@ -1,5 +1,5 @@
 <?php
-// Autopublish extension
+// Autopublish extension, https://github.com/GiovanniSalmeri/yellow-autopublish
 
 class YellowAutopublish {
     const VERSION = "0.8.18";
