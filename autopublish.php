@@ -3,7 +3,6 @@
 
 class YellowAutopublish {
     const VERSION = "0.8.18";
-    const PRIORITY = "9";   // before YellowDraft
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -16,6 +15,7 @@ class YellowAutopublish {
         if (strtotime($page->get("published"))>time()) {
             if ($this->yellow->extension->isExisting("draft")) {
                 $page->set("status", "draft");
+                $page->visible = false;
             } else {
                 $page->error(500, "Autopublish requires 'draft' extension!");
             }
