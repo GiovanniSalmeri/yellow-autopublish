@@ -2,7 +2,7 @@
 // Autopublish extension, https://github.com/GiovanniSalmeri/yellow-autopublish
 
 class YellowAutopublish {
-    const VERSION = "0.8.18";
+    const VERSION = "0.8.19";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -11,7 +11,7 @@ class YellowAutopublish {
     }
 
     // Handle page meta data
-    public function onParseMeta($page) {
+    public function onParseMetaData($page) {
         if (strtotime($page->get("published"))>time()) {
             if ($this->yellow->extension->isExisting("draft")) {
                 $page->set("status", "draft");
