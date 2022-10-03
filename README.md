@@ -1,14 +1,14 @@
-Autopublish 0.8.19
-=====================
+# Autopublish 0.8.19
+
 Schedule automatic publishing of pages.
 
 <p align="center"><img src="autopublish-screenshot.png?raw=true" alt="Screenshot"></p>
 
 ## How to schedule the publishing of a page
 
-Set a future `Published:` date in the [settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings) at the top of the page. The page will behave as if it had a `Status: draft` until the date set.
+Set a future `Published:` date in the [settings](https://github.com/annaesvensson/yellow-core#settings) at the top of the page. The page will behave as if it had a `Status: draft` until the date set.
 
-For further details see the [Draft extension](https://github.com/datenstrom/yellow-extensions/tree/master/source/draft).
+For further details see the [Draft extension](https://github.com/annaesvensson/yellow-draft).
 
 ## Example
 
