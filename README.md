@@ -31,7 +31,7 @@ A correct configuration of the following setting in file `system/extensions/yell
 
 ## Installation
 
-[Download extension](https://github.com/GiovanniSalmeri/yellow-autopublish/archive/master.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+[Download extension](https://github.com/GiovanniSalmeri/yellow-autopublish/archive/main.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
 ## Developer
 
