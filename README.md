@@ -35,4 +35,4 @@ A correct configuration of the following setting in file `system/extensions/yell
 
 ## Developer
 
-Giovanni Salmeri. [Get help](https://github.com/GiovanniSalmeri/yellow-autopublish/issues).
+Giovanni Salmeri. [Get help](https://datenstrom.se/yellow/help/)
