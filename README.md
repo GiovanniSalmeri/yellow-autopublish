@@ -12,7 +12,7 @@ Schedule automatic publishing of pages.
 
 Set a future `Published` date in the [settings](https://github.com/annaesvensson/yellow-core#settings) at the top of the page. The page will no longer be visible, once the date is reached it will automatically become visible. You can continue to edit the page in a [web browser](https://github.com/annaesvensson/yellow-edit) and on your [computer](https://github.com/annaesvensson/yellow-core). For further details see the [draft extension](https://github.com/annaesvensson/yellow-draft).
 
-Automatic publishing of pages is based on your website's date and time. The timezone of the website can be configured in the system settings. Open file `system/extensions/yellow-system.ini` and look for `CoreTimezone`.
+Automatic publishing of pages depends on the date of the website. The timezone of the website can be configured in the system settings. Open file `system/extensions/yellow-system.ini` and look for `CoreTimezone`.
 
 ## Examples
 
