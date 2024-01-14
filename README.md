@@ -1,4 +1,4 @@
-# Autopublish 0.8.19
+# Autopublish 0.8.20
 
 Schedule automatic publishing of pages.
 
