@@ -12,15 +12,15 @@ class YellowAutopublish {
 
     // Handle page meta data
     public function onParseMetaData($page) {
-        if ($this->yellow->page==$page) {
-            if (strtotime($page->get("published"))>time()) {
-                if ($this->yellow->extension->isExisting("draft")) {
+        if ($this->yellow->extension->isExisting("draft")) {
+            if ($page->get("status")!=="shared") {
+                if (strtotime($page->get("published"))>time()) {
                     $page->set("status", "draft");
                     $page->visible = false;
-                } else {
-                    $page->error(500, "Autopublish requires 'draft' extension!");
                 }
             }
+        } else {
+            $page->error(500, "Autopublish requires 'draft' extension!");
         }
     }
 }
