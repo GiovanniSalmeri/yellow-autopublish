@@ -1,8 +1,8 @@
-# Autopublish 0.9.1
+# Autopublish 1.0.0
 
-Schedule automatic publishing of pages.
+Schedule automatic publishing of pages. Developed by Giovanni Salmeri.
 
-<p align="center"><img src="SCREENSHOT.png" alt="Screenshot"></p>
+<p align="center"><img src="screenshot.png" alt="Screenshot"></p>
 
 ## How to install an extension
 
@@ -53,6 +53,4 @@ The following setting can be configured in file `system/extensions/yellow-system
 
 `CoreTimezone` = timezone of the website, [supported timezones](https://www.php.net/manual/en/timezones.php)  
 
-## Developer
-
-Giovanni Salmeri. [Get help](https://datenstrom.se/yellow/help/).
+Do you have questions? [Get help](https://datenstrom.se/yellow/help/).

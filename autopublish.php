@@ -2,7 +2,7 @@
 // Autopublish extension, https://github.com/GiovanniSalmeri/yellow-autopublish
 
 class YellowAutopublish {
-    const VERSION = "0.9.1";
+    const VERSION = "1.0.0";
     public $yellow;         // access to API
     
     // Handle initialisation
